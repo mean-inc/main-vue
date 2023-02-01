@@ -1,0 +1,80 @@
+@import "@/assets/styles/variables.scss";
+.header {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+ }
+ .header__upper a {
+  color: white;
+ }
+//  .header__container {
+//   width: 100%;
+//   font-size: 1rem;
+//   display: flex;
+//   flex-direction: column;
+//  }
+ .header__upper {
+  background-color: black;
+  color: white;
+ }
+ .header__upper_container{
+  @include flexrow;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .upper__location {
+  @include flexrow;
+  align-items: center;
+  width: 15%;
+  gap: 5px;
+ }
+ .upperText {
+  font-size: $aaa;
+ }
+ .upper__delivery {
+  @include flexrow;
+  justify-content: space-between;
+  gap: 20px;
+ }
+ .asa{
+  @include flexrow;
+  justify-content: space-between;
+  width: 85%;
+ }
+ .line {
+ }
+ .line._upper{
+  // margin-right: 22px;
+ }
+ a._grey{
+  color: #B4B4B4;
+ }
+ img.loc{
+  position: relative;
+  top: -1.5px;
+ }
+ .upper__userProfile {
+  @include flexrow;
+  gap: 5px;
+ }
+ .header__main {
+}
+.header__main_container{
+  @include flexrow;
+  justify-content: space-between;
+  align-items: center;
+ }
+.main__logo {
+}
+.main__menubar {
+}
+.main__nav {
+}
+.nav_link {
+}
+.main__shopper {
+  @include flexrow;
+}
+.line {
+}
