@@ -1,7 +1,5 @@
 <template>
-  <div class="home">
-    <ShopHeader />
-  </div>
+  <div class="home"><ShopHeader /></div>
 </template>
 
 <script>

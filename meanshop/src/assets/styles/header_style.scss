@@ -1,4 +1,5 @@
 @import "@/assets/styles/variables.scss";
+
 .header {
    width: 100%;
    display: flex;
@@ -37,11 +38,15 @@
   justify-content: space-between;
   gap: 20px;
  }
+
+
  .asa{
   @include flexrow;
   justify-content: space-between;
   width: 85%;
+  align-items: center;
  }
+
  .line {
  }
  .line._upper{
@@ -58,23 +63,37 @@
   @include flexrow;
   gap: 5px;
  }
- .header__main {
+ .header__main a{
+  color: black;
 }
 .header__main_container{
   @include flexrow;
   justify-content: space-between;
   align-items: center;
+  height: 60px;
  }
 .main__logo {
+  font-family: 'Jockey One', sans-serif;
+  font-size: 1.5rem;
+}
+a.blue{
+  color: #0500FF;
 }
 .main__menubar {
 }
 .main__nav {
+  @include flexrow;
+  width: 80%;
+  gap: 15px;
+  // justify-content: space-between;
 }
 .nav_link {
+
 }
 .main__shopper {
   @include flexrow;
+  align-items: center;
+  gap: 25px;
 }
 .line {
 }
