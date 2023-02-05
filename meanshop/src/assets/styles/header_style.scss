@@ -31,12 +31,13 @@
   gap: 5px;
  }
  .upperText {
-  font-size: $aaa;
+  font-size: $font_mini;
  }
  .upper__delivery {
   @include flexrow;
   justify-content: space-between;
   gap: 20px;
+  align-items: center;
  }
 
 
@@ -62,6 +63,7 @@
  .upper__userProfile {
   @include flexrow;
   gap: 5px;
+  align-items: center;
  }
  .header__main a{
   color: black;
@@ -71,6 +73,7 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
+  font-size: $font_regular;
  }
 .main__logo {
   font-family: 'Jockey One', sans-serif;

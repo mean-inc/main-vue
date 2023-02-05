@@ -1,4 +1,6 @@
-$aaa: 1rem;
+$font_mini: 0.75rem;
+$font_regular: 1rem;
+$font_big: 2.5rem;
 @mixin flexrow{
    display: flex;
    flex-direction: row;
