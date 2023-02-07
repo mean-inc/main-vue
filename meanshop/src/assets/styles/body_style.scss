@@ -25,6 +25,7 @@
 #catalog__item {
    display: flex;
    flex-direction: column;
+   position: relative;
    // width: 420px;
    background: #FFFFFF;
    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.25);
@@ -46,6 +47,16 @@
    font-size: 1rem;
    color: #8D8D92;
    font-weight: lighter;
+}
+.item__img{
+   // max-width: 420px;
+}
+@media (max-width: 736.9px) {
+   .item__img{
+      // width: 100%;
+      // object-fit: cover;
+      // position: absolute;
+   }
 }
 
 // .item_iphone {
@@ -184,3 +195,70 @@
 }
 .value__link {
 }
+
+
+.section__power{
+   margin-bottom: 100px;
+}
+.power__container {
+   display: flex;
+   flex-direction: row;
+}
+.power__content_container{
+}
+.power__img {
+}
+.power__content {
+   position: relative;
+   width: 100%;
+   // max-width: 585px;
+}
+.content__1 {
+   max-width: 585px;
+}
+
+.dispatch{
+   margin-bottom: 38px;
+}
+._active {
+}
+.horizontal__line {
+   width: 90%;
+   height: 2px;
+   background-color: black;
+   margin-bottom: 38px;
+}
+.value__title {
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+.value__img {
+   position: absolute;
+   left: -55px;
+   top: 30px;
+}
+.value__text {
+   font-size: 1.25rem;
+   font-weight: 300;
+   line-height: 125%;
+   margin-bottom: 20px;
+   max-width: 585px;
+}
+.value__link {
+   text-decoration: underline;
+   font-weight: 400;
+   font-size: 1.25rem;
+   color: grey;
+}
+// .line__smaller{
+//    width: 70%;
+//    height: 2px;
+//    background-color: grey;
+//    opacity: 0.7;
+//    margin-top: 30px;
+// }
+._none{
+   display: none;
+}
+
