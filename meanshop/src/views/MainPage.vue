@@ -6,7 +6,7 @@
         <div class="main__slider"></div>
         <div class="main__catalog_grid">
           <div class="item_iphone" id="catalog__item">
-            <a href="#"
+            <a href="#" class="dddd"
               ><img
                 src="@/assets/img/iphone__img.jpg"
                 class="item__img"
@@ -19,10 +19,10 @@
             >
           </div>
           <div class="item_ipad" id="catalog__item">
-            <a href="#"
+            <a href="#" class="dddd"
               ><img
                 src="@/assets/img/ipad__img.jpg"
-                class="item__img"
+                class="item__img _ipad"
                 alt="iPhone"
               />
               <div class="item__textArea">
@@ -32,7 +32,7 @@
             >
           </div>
           <div class="item_mac" id="catalog__item">
-            <a href="#"
+            <a href="#" class="dddd"
               ><img
                 src="@/assets/img/img_example.jpg"
                 class="item__img"
@@ -45,7 +45,7 @@
             >
           </div>
           <div class="item_watch" id="catalog__item">
-            <a href="#"
+            <a href="#" class="dddd"
               ><img
                 src="@/assets/img/img_example.jpg"
                 class="item__img"
@@ -58,7 +58,7 @@
             >
           </div>
           <div class="item_accessories" id="catalog__item">
-            <a href="#"
+            <a href="#" class="dddd"
               ><img
                 src="@/assets/img/img_example.jpg"
                 class="item__img"
@@ -71,7 +71,7 @@
             >
           </div>
           <div class="item_airpods" id="catalog__item">
-            <a href="#"
+            <a href="#" class="dddd"
               ><img
                 src="@/assets/img/img_example.jpg"
                 class="item__img"

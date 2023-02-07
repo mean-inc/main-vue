@@ -44,20 +44,4 @@ html, body {
 position: relative;
 }
 
-@mixin title($f){
-font-weight: 700;
-color: #01996D;
-font-family: 'Georgia';
-font-size: $f;
-}
-@mixin lato($f, $w){
-font-family: 'Lato', sans-serif;
-font-weight: $w;
-font-size: $f;
-}
-@mixin georgia($f, $w){
-font-family: 'Georgia';
-font-weight: $w;
-font-size: $f;
-}
 /* @include */
