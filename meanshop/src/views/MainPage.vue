@@ -125,8 +125,8 @@
               <img src="#" alt="device" />
             </div>
           </div>
-        </div>
-        <section class="section__power _container">
+        </div> -->
+        <!-- <section class="section__power _container">
           <h2 class="power__title">В чём сила Apple?</h2>
           <div class="power__container">
             <div class="power__img">
