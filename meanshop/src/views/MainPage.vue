@@ -2,8 +2,8 @@
   <div class="home">
     <ShopHeader />
     <main class="main">
+      <div class="main__slider"></div>
       <div class="main__container _container">
-        <div class="main__slider"></div>
         <div class="main__catalog_grid">
           <div class="item_iphone" id="catalog__item">
             <a href="#" class="dddd"
@@ -34,7 +34,7 @@
           <div class="item_mac" id="catalog__item">
             <a href="#" class="dddd"
               ><img
-                src="@/assets/img/img_example.jpg"
+                src="@/assets/img/mac_img.png"
                 class="item__img"
                 alt="iPhone"
               />
@@ -47,8 +47,8 @@
           <div class="item_watch" id="catalog__item">
             <a href="#" class="dddd"
               ><img
-                src="@/assets/img/img_example.jpg"
-                class="item__img"
+                src="@/assets/img/watch_img.png"
+                class="item__img _watch"
                 alt="iPhone"
               />
               <div class="item__textArea">
@@ -57,10 +57,10 @@
               </div></a
             >
           </div>
-          <div class="item_accessories" id="catalog__item">
+          <div class="item_accessories _pad" id="catalog__item">
             <a href="#" class="dddd"
               ><img
-                src="@/assets/img/img_example.jpg"
+                src="@/assets/img/accessories_img.jpg"
                 class="item__img"
                 alt="iPhone"
               />
@@ -73,7 +73,7 @@
           <div class="item_airpods" id="catalog__item">
             <a href="#" class="dddd"
               ><img
-                src="@/assets/img/img_example.jpg"
+                src="@/assets/img/airpods_img.jpg"
                 class="item__img"
                 alt="iPhone"
               />
@@ -84,48 +84,48 @@
             >
           </div>
         </div>
-        <!-- <div class="main__promo_banners_grid">
-          <div class="banner_ipad _promo _black">
+        <div class="main__promo_banners_grid">
+          <div class="banner_ipad _promo _white">
             <div class="promo__content">
               <h3 class="promo__title">iPad Pro</h3>
               <p class="promo__text">мегасила чипа Apple M1</p>
-              <a href="#" class="promo__link">Подробнее ></a>
+              <p class="promo__link">Подробнее ></p>
             </div>
             <div class="promo__img">
-              <img src="#" alt="device" />
+              <img src="@/assets/img/ipadpro__promo.jpg" alt="device" />
             </div>
           </div>
-          <div class="banner_macbook _promo">
+          <div class="banner_macbook _promo _black">
             <div class="promo__content">
               <h3 class="promo__title">MacBook Pro</h3>
-              <p class="promo__text">мегасила профессионалов</p>
-              <a href="#" class="promo__link">Подробнее ></a>
+              <p class="promo__text">суперсила профессионалов</p>
+              <p class="promo__link">Подробнее ></p>
             </div>
             <div class="promo__img">
-              <img src="#" alt="device" />
+              <img src="@/assets/img/macbook__promo.png" alt="device" />
             </div>
           </div>
-          <div class="banner_airpods _promo">
+          <div class="banner_airpods _promo _black">
             <div class="promo__content">
               <h3 class="promo__title">AirPods</h3>
               <p class="promo__text">новые. с глубоким звучанием</p>
-              <a href="#" class="promo__link">Подробнее ></a>
+              <p class="promo__link">Подробнее ></p>
             </div>
             <div class="promo__img">
-              <img src="#" alt="device" />
+              <img src="@/assets/img/airpods__promo.png" alt="device" />
             </div>
           </div>
-          <div class="banner_watch _promo _black">
+          <div class="banner_watch _promo _white">
             <div class="promo__content">
               <h3 class="promo__title">Watch</h3>
               <p class="promo__text">покажут будущее</p>
-              <a href="#" class="promo__link">Подробнее ></a>
+              <p class="promo__link">Подробнее ></p>
             </div>
             <div class="promo__img">
-              <img src="#" alt="device" />
+              <img src="@/assets/img/watch__promo.png" alt="device" />
             </div>
           </div>
-        </div> -->
+        </div>
         <!-- <section class="section__power _container">
           <h2 class="power__title">В чём сила Apple?</h2>
           <div class="power__container">

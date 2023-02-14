@@ -43,6 +43,11 @@
    background: #FFFFFF;
    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.25);
 }
+#catalog__item:hover{
+   width: 95%;
+   transition: all 0.5s ease 0s;
+   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.35);
+}
 .item__textArea{
    height: 108px;
    display: flex;
@@ -70,11 +75,11 @@
    z-index: 1;
    // position: absolute;
    align-self: center;
-   width: 90%;
+   width: 100%;
    // height: 100%;
    left: 0;
    top: 0;
-   object-fit: cover;
+   object-fit: contain;
 }
 .dddd{
    display: flex;
@@ -82,64 +87,20 @@
    flex-direction: column;
    justify-content: center;
 }
+._pad img{
+   padding: 25px;
+}
 ._ipad{
-   width: 80%;
+   // width: 80%;
+}
+._watch{
+   // width: 50%;
 }
 @media (max-width: 1120px) {
    .main__catalog_grid{
 
    }
 }
-// @media (max-width: 500px){
-//    .main__catalog_grid{
-//       grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
-
-//    }
-// }
-// @media (max-width: 736.90px) {
-//    #catalog__item a{
-//       // width: 200px;
-//    }
-//    .item__img{
-//       max-width: 100%;
-//       object-fit: cover;
-//       // position: absolute;
-//    }
-//    .main__catalog_grid{
-//       grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
-//    }
-// }
-// @media (max-width: 1024.90px) {
-//    .main__catalog_grid{
-//       grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-
-//    }
-// }
-
-// .item_iphone {
-//    grid-row: 1/2;
-//    grid-column: 1/2;
-// }
-// .item_ipad {
-//    grid-row: 1/2;
-//    grid-column: 2/3;
-// }
-// .item_mac {
-//    grid-row: 1/2;
-//    grid-column: 3/4;
-// }
-// .item_watch {
-//    grid-row: 2/3;
-//    grid-column: 1/2;
-// }
-// .item_accessories {
-//    grid-row: 2/3;
-//    grid-column: 2/3;
-// }
-// .item_airpods {
-//    grid-row: 2/3;
-//    grid-column: 3/4;
-// }
 
 #catalog__item{
    margin-bottom: 55px;
@@ -153,21 +114,32 @@
       // width: 100%;
    }
 }
-
 .main__promo_banners_grid {
    display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(713px, 1fr));
+   grid-template-columns: repeat(auto-fill, minmax(481px, 1fr));
    justify-items: center;
    margin-bottom: 70px;
 }
+@media (max-width: 510px) {
+   .main__promo_banners_grid{
+      grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+   }
+}
 .banner_ipad {
 }
+
 ._promo {
    display: flex;
+   flex: 0 1 auto;
    flex-direction: column;
    align-items: center;
+   position: relative;
    width: 95%;
    height: 620px;
+   margin-bottom: 5px;
+}
+._promo:last-child{
+   margin-bottom: 0;
 }
 .promo__content {
    display: flex;
@@ -188,17 +160,52 @@
 }
 ._black, ._black a{
    color: white;
-   background-color: #565656;
+   background-color: black;
+}
+._black:hover, ._black a:hover{
+   background-color: white;
+   color: black;
+   transition: all 1s ease 0s;
 }
 .promo__link {
 }
-.promo__img {
+.promo__img + .banner_ipad{
+   display: flex;
+   width: 100%;
+   height: 90%;
+   align-items: center;
+   justify-content: center;
+   // position: relative;
 }
-.banner_macbook {
+._white:hover{
+   background-color: black;
+   color: white;
+   transition: all 1s ease 0s;
 }
-.banner_airpods {
+.promo__img{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   align-items: center;
+   // position: relative;
+   // justify-content: center;
 }
-.banner_watch {
+.promo__img img{
+   position: absolute;
+   object-fit: contain;
+}
+.banner_ipad img{
+   width: 350px;
+   bottom: 10px;
+}
+.banner_macbook img{
+   width: 500px;
+}
+.banner_airpods img{
+   width: 400px;
+}
+.banner_watch img{
+   width: 400px;
 }
 
 

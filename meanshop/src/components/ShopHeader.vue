@@ -24,7 +24,7 @@
             <a href="#"
               ><img src="@/assets/img/userIcon.svg" alt="userIcon"
             /></a>
-            <p class="upperText"><a href="#">Мой личный кабинет</a></p>
+            <p class="upperText"><a href="#">Личный кабинет</a></p>
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@
         </div>
         <div class="upper__userProfile">
           <a href="#"><img src="@/assets/img/userIcon.svg" alt="userIcon" /></a>
-          <p class="upperText _fb"><a href="#">Мой личный кабинет</a></p>
+          <p class="upperText _fb"><a href="#">Личный кабинет</a></p>
         </div>
       </div>
     </div>
