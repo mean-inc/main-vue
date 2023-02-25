@@ -85,121 +85,126 @@
           </div>
         </div>
         <div class="main__promo_banners_grid">
-          <div class="banner_ipad _promo _white">
-            <div class="promo__content">
-              <h3 class="promo__title">iPad Pro</h3>
-              <p class="promo__text">мегасила чипа Apple M1</p>
-              <p class="promo__link">Подробнее ></p>
-            </div>
-            <div class="promo__img">
-              <img src="@/assets/img/ipadpro__promo.jpg" alt="device" />
-            </div>
+          <div class="banner_ipad _white">
+            <a href="#" class="_promo">
+              <div class="promo__content">
+                <h3 class="promo__title">iPad Pro</h3>
+                <p class="promo__text">мегасила чипа Apple M1</p>
+                <p class="promo__link">Подробнее ></p>
+              </div>
+              <div class="promo__img">
+                <img src="@/assets/img/ipadpro__promo.jpg" alt="device" />
+              </div>
+            </a>
           </div>
-          <div class="banner_macbook _promo _black">
-            <div class="promo__content">
-              <h3 class="promo__title">MacBook Pro</h3>
-              <p class="promo__text">суперсила профессионалов</p>
-              <p class="promo__link">Подробнее ></p>
-            </div>
-            <div class="promo__img">
-              <img src="@/assets/img/macbook__promo.png" alt="device" />
-            </div>
+          <div class="banner_macbook _black">
+            <a href="#" class="_promo">
+              <div class="promo__content">
+                <h3 class="promo__title">MacBook Pro</h3>
+                <p class="promo__text">суперсила профессионалов</p>
+                <p class="promo__link">Подробнее ></p>
+              </div>
+              <div class="promo__img">
+                <img src="@/assets/img/macbook__promo.png" alt="device" />
+              </div>
+            </a>
           </div>
-          <div class="banner_airpods _promo _black">
-            <div class="promo__content">
-              <h3 class="promo__title">AirPods</h3>
-              <p class="promo__text">новые. с глубоким звучанием</p>
-              <p class="promo__link">Подробнее ></p>
-            </div>
-            <div class="promo__img">
-              <img src="@/assets/img/airpods__promo.png" alt="device" />
-            </div>
+          <div class="banner_airpods _black">
+            <a href="#" class="_promo">
+              <div class="promo__content">
+                <h3 class="promo__title">AirPods</h3>
+                <p class="promo__text">новые. с глубоким звучанием</p>
+                <p class="promo__link">Подробнее ></p>
+              </div>
+              <div class="promo__img">
+                <img src="@/assets/img/airpods__promo.png" alt="device" />
+              </div>
+            </a>
           </div>
-          <div class="banner_watch _promo _white">
-            <div class="promo__content">
-              <h3 class="promo__title">Watch</h3>
-              <p class="promo__text">покажут будущее</p>
-              <p class="promo__link">Подробнее ></p>
-            </div>
-            <div class="promo__img">
-              <img src="@/assets/img/watch__promo.png" alt="device" />
-            </div>
+          <div class="banner_watch _white">
+            <a href="#" class="_promo">
+              <div class="promo__content">
+                <h3 class="promo__title">Watch</h3>
+                <p class="promo__text">покажут будущее</p>
+                <p class="promo__link">Подробнее ></p>
+              </div>
+              <div class="promo__img">
+                <img src="@/assets/img/watch__promo.png" alt="device" />
+              </div>
+            </a>
           </div>
         </div>
-        <!-- <section class="section__power _container">
+        <section class="section__power">
           <h2 class="power__title">В чём сила Apple?</h2>
           <div class="power__container">
             <div class="power__img">
-              <img src="../assets/img/img_example.jpg" alt="pic" />
+              <img
+                src="../assets/img/power__img_iphone.jpeg"
+                class="imgios"
+                data-img="#img_1"
+                alt="pic"
+              />
             </div>
-            <div class="power__content_container">
-              <div class="power__content _ios">
-                <div class="content__1">
-                  <div class="horizontal__line"></div>
-                  <div class="value__title">
-                    <img
-                      src="@/assets/img/apple.svg"
-                      class="value__img"
-                      alt="apple"
-                    />
-                    <h4 class="value__title">iOS 15. На связи. В моменте.</h4>
-                  </div>
-                  <div class="dispatch">
-                    <p class="value__text">
-                      В iOS 15 множество новых функций для общения, навигации в
-                      окружающем мире, лучшей концентрации на главном и
-                      использования использования использования использования
-                      интеллекта. Ваш iPhone станет ещё способнее.
-                    </p>
-                    <a href="#" class="value__link">Узнать больше</a>
-                  </div>
+            <div v-on:mouseenter="openTab()" class="power__content_container">
+              <div class="power__content _ios _ww" data-tab="#tab_ios">
+                <div class="horizontal__line"></div>
+                <div class="value__title">
+                  <img
+                    src="@/assets/img/apple.svg"
+                    class="value__img"
+                    alt="apple"
+                  />
+                  <h4 class="value__title">iOS 15. На связи. В моменте.</h4>
+                </div>
+                <div class="dispatch _current" id="tab_ios">
+                  <p class="value__text">
+                    В iOS 15 множество новых функций для общения, навигации в
+                    окружающем мире, лучшей концентрации на главном и
+                    использования использования использования использования
+                    интеллекта. Ваш iPhone станет ещё способнее.
+                  </p>
+                  <a href="#" class="value__link">Узнать больше</a>
                 </div>
               </div>
-              <div class="power__content _konf">
-                <div class="content__1">
-                  <div class="horizontal__line"></div>
-                  <div class="value__title">
-                    <img
-                      src="@/assets/img/apple.svg"
-                      class="value__img"
-                      alt="apple"
-                    />
-                    <h4 class="value__title">Конфиденциальность</h4>
-                  </div>
-                  <div class="dispatch _none">
-                    <p class="value__text">
-                      Только вам решать,кому будут доступны ваши данные.
-                    </p>
-                    <a href="#" class="value__link">Узнать больше</a>
-                  </div>
+              <div class="power__content _konf" data-tab="#tab_konf">
+                <div class="horizontal__line"></div>
+                <div class="value__title">
+                  <img
+                    src="@/assets/img/apple.svg"
+                    class="value__img"
+                    alt="apple"
+                  />
+                  <h4 class="value__title">Конфиденциальность</h4>
+                </div>
+                <div class="dispatch" id="tab_konf">
+                  <p class="value__text">
+                    Только вам решать, кому будут доступны ваши данные.
+                  </p>
+                  <a href="#" class="value__link">Узнать больше</a>
                 </div>
               </div>
-              <div class="power__content _move">
-                <div class="content__1 _active">
-                  <div class="horizontal__line"></div>
-                  <div class="value__title">
-                    <img
-                      src="@/assets/img/apple.svg"
-                      class="value__img"
-                      alt="apple"
-                    />
-                    <h4 class="value__title">
-                      Перейти на iPhone очень просто.
-                    </h4>
-                  </div>
-                  <div class="dispatch _none">
-                    <p class="value__text">
-                      Переходите на iPhone со смартфона Android? Это легко:
-                      достаточно просто включить новый iPhone. Вам поможет
-                      пошаговое руководство и приложение для переноса данных.
-                    </p>
-                    <a href="#" class="value__link">Узнать больше</a>
-                  </div>
+              <div class="power__content _move" data-tab="#tab_move">
+                <div class="horizontal__line"></div>
+                <div class="value__title">
+                  <img
+                    src="@/assets/img/apple.svg"
+                    class="value__img"
+                    alt="apple"
+                  />
+                  <h4 class="value__title">Перейти на iPhone очень просто.</h4>
+                </div>
+                <div class="dispatch" id="tab_move">
+                  <p class="value__text">
+                    Переходите на iPhone со смартфона Android? Это легко:
+                    достаточно просто включить новый iPhone. Вам поможет
+                    пошаговое руководство и приложение для переноса данных.
+                  </p>
+                  <a href="#" class="value__link">Узнать больше</a>
                 </div>
               </div>
             </div>
           </div>
-        </section> -->
+        </section>
       </div>
     </main>
     <ShopFooter />
@@ -216,6 +221,31 @@ export default {
   components: {
     ShopHeader,
     ShopFooter,
+  },
+  data() {
+    return {};
+  },
+
+  methods: {
+    openTab() {
+      const tab = document.querySelectorAll(".power__content");
+      const allTabs = document.querySelectorAll(".dispatch");
+      tab.forEach(function (item) {
+        item.addEventListener("click", function () {
+          let currentTab = item;
+          let tabId = currentTab.getAttribute("data-tab");
+          let tabActive = document.querySelector(tabId);
+          tab.forEach(function (item) {
+            item.classList.remove("_ww");
+          });
+          allTabs.forEach(function (last) {
+            last.classList.remove("_current");
+          });
+          currentTab.classList.add("_ww");
+          tabActive.classList.add("_current");
+        });
+      });
+    },
   },
 };
 </script>
