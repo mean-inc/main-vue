@@ -32,7 +32,7 @@
     <div class="header__upper _adapt _fixed">
       <div class="header__upper_container _container">
         <div class="main__logo _adapt">
-          <a href="#">Mean</a><a href="#" class="blue">Shop</a>
+          <a href="#/">Mean</a><a href="#/" class="blue">Shop</a>
         </div>
         <div class="main__shopper">
           <a href="#" class="shopper__link"
@@ -82,10 +82,10 @@
         <div class="asa">
           <!-- <div class="main__menubar"> -->
           <nav class="main__nav">
-            <a href="#" class="nav_link">iPhone</a>
-            <a href="#" class="nav_link">iPad</a>
-            <a href="#" class="nav_link">Mac</a>
-            <a href="#" class="nav_link">Watch</a>
+            <router-link to="/catalog-iphone">Iphone</router-link>
+            <router-link to="/catalog-ipad">iPad</router-link>
+            <router-link to="/catalog-mac">Mac</router-link>
+            <router-link to="/catalog-watch">Watch</router-link>
             <a href="#" class="nav_link">Аксессуары</a>
             <a href="#" class="nav_link">AirPods</a>
           </nav>

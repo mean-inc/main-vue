@@ -1,7 +1,8 @@
 <template>
   <footer class="footer">
     <div class="footer__container">
-      <a href="#" class="link">На главную</a>
+      <router-link to="/">На главную</router-link>
+      <!-- <a href="#" class="link">На главную</a> -->
     </div>
   </footer>
 </template>
