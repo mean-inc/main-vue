@@ -6,8 +6,13 @@
           <a href=""
             ><img src="@/assets/img/location.svg" alt="location" class="loc"
           /></a>
-          <p class="upperText">
-            <a href="#">Ваш город</a>
+          <p
+            @click="$emit.showModal = true"
+            style="cursor: pointer"
+            class="upperText"
+          >
+            <!-- {{ city }} -->
+            Ваш город
           </p>
         </div>
         <div class="asa">
@@ -21,10 +26,12 @@
             </p>
           </div>
           <div class="upper__userProfile">
-            <a href="#"
+            <router-link to="/user-cabinet"
               ><img src="@/assets/img/userIcon.svg" alt="userIcon"
-            /></a>
-            <p class="upperText"><a href="#">Личный кабинет</a></p>
+            /></router-link>
+            <p class="upperText">
+              <router-link to="/user-cabinet">Личный кабинет</router-link>
+            </p>
           </div>
         </div>
       </div>
@@ -56,9 +63,7 @@
           <a href=""
             ><img src="@/assets/img/location.svg" alt="location" class="loc"
           /></a>
-          <p class="upperText _fb">
-            <a href="#">Ваш город</a>
-          </p>
+          <p class="upperText _fb">Ваш город</p>
         </div>
         <div class="upper__delivery">
           <p class="upperText _fb">
@@ -69,8 +74,10 @@
           </p>
         </div>
         <div class="upper__userProfile">
-          <a href="#"><img src="@/assets/img/userIcon.svg" alt="userIcon" /></a>
-          <p class="upperText _fb"><a href="#">Личный кабинет</a></p>
+          <img src="@/assets/img/userIcon.svg" alt="userIcon" />
+          <p class="upperText _fb">
+            <router-link to="/user-cabinet">Личный кабинет</router-link>
+          </p>
         </div>
       </div>
     </div>
@@ -86,19 +93,19 @@
             <router-link to="/catalog-ipad">iPad</router-link>
             <router-link to="/catalog-mac">Mac</router-link>
             <router-link to="/catalog-watch">Watch</router-link>
-            <a href="#" class="nav_link">Аксессуары</a>
-            <a href="#" class="nav_link">AirPods</a>
+            <router-link to="/catalog-accessories">Аксессуары</router-link>
+            <router-link to="/catalog-airpods">AirPods</router-link>
           </nav>
           <!-- </div> -->
           <div class="main__shopper _qqq">
-            <a href="#" class="shopper__link"
+            <router-link to="/shopping-favorites"
               ><img src="@/assets/img/icon_star.svg" alt="star"
-            /></a>
-            <a href="#" class="main__shopper"
+            /></router-link>
+            <router-link to="/shopping-basket"
               ><img src="@/assets/img/shopbasket.svg" alt="shopbasket"
-            /></a>
+            /></router-link>
             <div class="line">|</div>
-            <a href="#" class="main__shopper"
+            <a href="#"
               ><img src="@/assets/img/searchIcon.svg" alt="search"
             /></a>
           </div>
@@ -111,6 +118,12 @@
 <script>
 export default {
   name: "ShopHeader",
+  props: {},
+  data() {
+    return {
+      // userCity: "",
+    };
+  },
   methods: {
     burgOpen() {
       const menu = document.querySelector(".header__upper_adaptive");
@@ -118,6 +131,10 @@ export default {
       burger.classList.toggle("_scale");
       menu.classList.toggle("_xxx");
     },
+    // showModal() {
+    //   const modal = document.querySelector(".modal");
+    //   modal.classList.toggle("_closed");
+    // },
   },
 };
 </script>

@@ -7,6 +7,7 @@ const routes = [
     name: "home",
     component: MainPage,
   },
+  // CATALOGGGGGGG
   {
     path: "/catalog-iphone",
     name: "catalog-iphone",
@@ -32,6 +33,33 @@ const routes = [
     path: "/catalog-watch",
     name: "catalog-watch",
     component: () => import("../views/catalog/WatchCatalog.vue"),
+  },
+  {
+    path: "/catalog-accessories",
+    name: "catalog-accessories",
+    component: () => import("../views/catalog/AccessoriesCatalog.vue"),
+  },
+  {
+    path: "/catalog-airpods",
+    name: "catalog-airpods",
+    component: () => import("../views/catalog/AirpodsCatalog.vue"),
+  },
+  // SHOPINGGGGGGGG
+  {
+    path: "/shopping-favorites",
+    name: "shopping-favorites",
+    component: () => import("../views/shopping/FavoritesPage.vue"),
+  },
+  {
+    path: "/shopping-basket",
+    name: "shopping-basket",
+    component: () => import("../views/shopping/ShopbasketPage.vue"),
+  },
+  // USER (UPPER HEADER)
+  {
+    path: "/user-cabinet",
+    name: "user-cabinet",
+    component: () => import("../views/user-info/UserCabinet.vue"),
   },
 ];
 

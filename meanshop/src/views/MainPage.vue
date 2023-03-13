@@ -2,6 +2,34 @@
   <div class="home">
     <ShopHeader />
     <main class="main">
+      <!-- <div class="modal _closed">
+        <div class="modal__city">
+          <p>Укажите Ваш город:</p>
+          <p>{{ userCity }}</p>
+          <input
+            @keydown.enter="confirmUserCity()"
+            v-model="InputUserCity"
+            type="text"
+            focused
+          />
+          <button @click="confirmUserCity()" type="submit">ОК</button>
+        </div>
+      </div> -->
+      <div>
+        <div v-if="showModal" class="modal-overlay">
+          <div class="modal-dialog">
+            <div class="modal-header">
+              <h3>Введите город проживания</h3>
+            </div>
+            <div class="modal-body">
+              <input type="text" v-model="$city" />
+            </div>
+            <div class="modal-footer">
+              <!-- <button @click.enter="showModal = false">Подтвердить</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="main__slider"></div>
       <div class="main__container _container">
         <div class="main__catalog_grid">
@@ -222,9 +250,22 @@ export default {
     ShopHeader,
     ShopFooter,
   },
-  data() {
-    return {};
+  props: {
+    showModal: {
+      type: Boolean,
+      default: false,
+    },
+    city: {
+      type: String,
+      default: "",
+    },
   },
+  // data() {
+  //   return {
+  //     showModal: true,
+  //     city: "",
+  //   };
+  // },
 
   methods: {
     openTab() {
@@ -251,4 +292,5 @@ export default {
 </script>
 <style lang="scss">
 @import "@/assets/styles/body_style.scss";
+@import "@/assets/styles/styles-modal.scss";
 </style>
