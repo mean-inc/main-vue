@@ -1,0 +1,114 @@
+{
+   "products": [
+     {
+       "name": "iPhone 12",
+       "type": "iphone",
+       "price": 499.00,
+       "color": ["black", "white", "red", "green", "blue"],
+       "storage": [64, 128, 256],
+       "display": "6.1 inch",
+       "ram": 4,
+       "camera": "12 MP",
+       "description": "The iPhone 12 delivers fast performance and features a sleek design with a stunning Super Retina XDR display."
+     },
+     {
+       "name": "iPhone 12 Pro",
+       "type": "iphone",
+       "price": 549.00,
+       "color": ["black", "white", "red", "blue"],
+       "storage": [128, 256, 528],
+       "display": "6.1 inch",
+       "ram": 4,
+       "camera": "12 MP",
+       "description": "The `name` delivers fast performance and features a sleek design with a stunning Super Retina XDR display."
+     },
+     {
+       "name": "iPhone 12 Pro Max",
+       "type": "iphone",
+       "price": 599.00,
+       "color": ["black", "white", "red", "green", "blue", "yellow"],
+       "storage": [128, 256, 528, 1024],
+       "display": "6.7 inch",
+       "ram": 6,
+       "camera": "12 MP",
+       "description": "The iPhone 12 delivers fast performance and features a sleek design with a stunning Super Retina XDR display."
+     },
+     {
+       "name": "iPhone SE 2020",
+       "type": "iphone",
+       "price": 299.00,
+       "color": ["black", "white", "red"],
+       "storage": [64, 128],
+       "display": "4.7 inch",
+       "ram": 3,
+       "camera": "12 MP",
+       "description": "The iPhone 12 delivers fast performance and features a sleek design with a stunning Super Retina XDR display."
+     },
+     {
+       "name": "iPhone 14",
+       "type": "iphone",
+       "price": 549.00,
+       "color": ["black", "white", "green", "blue"],
+       "storage": [64, 128, 256],
+       "display": "6.1 inch",
+       "ram": 6,
+       "camera": "12 MP",
+       "description": "The iPhone 12 delivers fast performance and features a sleek design with a stunning Super Retina XDR display."
+     },
+     {
+       "name": "iPhone 14 Pro",
+       "type": "iphone",
+       "price": 699.00,
+       "color": ["black", "white", "green", "blue"],
+       "storage": [64, 128, 256, 528],
+       "display": "6.1 inch",
+       "ram": 6,
+       "camera": "48 MP",
+       "description": "The iPhone 12 delivers fast performance and features a sleek design with a stunning Super Retina XDR display."
+     },
+     {
+       "name": "iPhone 14 Pro Max",
+       "type": "iphone",
+       "price": 799.00,
+       "color": ["black", "white", "red", "green", "blue"],
+       "storage": [64, 128, 256, 528, 1024],
+       "display": "6.7 inch",
+       "ram": 6,
+       "camera": "48 MP",
+       "description": "The iPhone 12 delivers fast performance and features a sleek design with a stunning Super Retina XDR display."
+     },
+
+     
+     {
+       "name": "MacBook Air",
+       "type": "laptop",
+       "price": 999.00,
+       "color": ["gold", "silver", "space gray"],
+       "storage": [256, 512],
+       "display": "13.3 inch",
+       "ram": 8,
+       "processor": "M1",
+       "description": "The MacBook Air is thin, light, and powerful, with all-day battery life, and features the Apple-designed M1 chip for amazing performance."
+     },
+     {
+       "name": "iPad Pro",
+       "type": "tablet",
+       "price": 799.00,
+       "color": ["silver", "space gray"],
+       "storage": [128, 256, 512],
+       "display": "11 inch",
+       "ram": 6,
+       "camera": "12 MP",
+       "description": "The iPad Pro is the ultimate tablet for power users, with a Liquid Retina display, powerful Apple Silicon chip, and support for the Apple Pencil and Smart Keyboard."
+     },
+     {
+       "name": "AirPods Pro",
+       "type": "headphones",
+       "price": 249.00,
+       "color": ["white"],
+       "noise_cancellation": true,
+       "wireless_charging": true,
+       "description": "AirPods Pro deliver immersive sound with Active Noise Cancellation, an adaptive EQ, and transparency mode for when you need to be aware of your surroundings."
+     }
+   ]
+ }
