@@ -7,7 +7,7 @@
             ><img src="@/assets/img/location.svg" alt="location" class="loc"
           /></a>
           <p
-            @click="$emit.showModal = true"
+            @click="$emit('openModal')"
             style="cursor: pointer"
             class="upperText"
           >

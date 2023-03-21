@@ -25,7 +25,8 @@
               <input type="text" v-model="$city" />
             </div>
             <div class="modal-footer">
-              <!-- <button @click.enter="showModal = false">Подтвердить</button> -->
+              <button>Подтвердить</button>
+              <button>Закрыть</button>
             </div>
           </div>
         </div>
@@ -287,6 +288,9 @@ export default {
         });
       });
     },
+    // openModal() {
+    //   this.showModal = true;
+    // },
   },
 };
 </script>

@@ -1,0 +1,76 @@
+{  
+   "Iphone": [
+     {
+        "name": "iPhone XR", 
+        "memory": "64/128/256 GB",
+        "colors": "Black, White, Blue, Yellow, Coral, Red",
+        "diagonal": "6.1 inches",
+        "camera": "12 MP",
+        "cost": "Unavailable"
+   },
+   {  
+      "name": "iPhone 11",
+        "memory": "64/128/256 GB",
+        "colors": "Black, White, Green, Yellow, Purple, Red",
+        "diagonal": "6.1 inches",
+        "camera": "12 MP Ultra-wide + 12 MP Wide",
+        "cost": "Unavailable"
+    },
+   {
+      "name": "iPhone 11 Pro",
+        "memory": "64/256/512 GB",
+        "colors": "Midnight Green, Space Gray, Silver, Gold",
+        "diagonal": "5.8 inches",
+        "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
+        "cost": "Unavailable"
+    },
+    {
+      "name": "iPhone 11 Pro Max",
+        "memory": "64/256/512 GB",
+        "colors": "Midnight Green, Space Gray, Silver, Gold",
+        "diagonal": "6.5 inches",
+        "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
+        "cost": "Unavailable"
+    },
+    {
+      "name": "iPhone SE (2nd generation)",
+        "memory": "64/128/256 GB",
+        "colors": "Black, White, Red",
+        "diagonal": "4.7 inches",
+        "camera": "12 MP",
+        "cost": "Unavailable"
+    },
+    {
+      "name": "iPhone 12",
+        "memory": "64/128/256 GB",
+        "colors": "Black, White, Green, Blue, Product Red",
+        "diagonal": "6.1 inches",
+        "camera": "12 MP Ultra-wide + 12 MP Wide",
+        "cost": "Unavailable"
+    },
+    {
+      "name": "iPhone 12 mini",
+        "memory": "64/128/256 GB",
+        "colors": "Black, White, Green, Blue, Product Red",
+        "diagonal": "5.4 inches",
+        "camera": "12 MP Ultra-wide + 12 MP Wide",
+        "cost": "Unavailable"
+    },
+    {
+      "name": "iPhone 12 Pro",
+        "memory": "128/256/512 GB",
+        "colors": "Graphite, Silver, Gold, Pacific Blue",
+        "diagonal": "6.1 inches",
+        "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
+        "cost": "Unavailable"
+    },
+    {
+      "name": "iPhone 12 Pro Max",
+        "memory": "128/256/512 GB",
+        "colors": "Graphite, Silver, Gold, Pacific Blue",
+        "diagonal": "6.7 inches",
+        "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
+        "cost": "Unavailable"
+    }
+   ]
+}
