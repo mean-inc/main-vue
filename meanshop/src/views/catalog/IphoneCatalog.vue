@@ -16,6 +16,13 @@
             <img src="@/assets/img/filter_select.svg" alt="svg select" />
           </div>
         </div>
+        <div class="catalog__devices">
+          <div v-for="item in DEVICES" :key="item.article" class="device">
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.cost }}</p>
+            <p>Доступные цвета:</p>
+          </div>
+        </div>
       </div>
     </div>
   </main>
@@ -24,7 +31,7 @@
 <script>
 import ShopHeader from "@/components/ShopHeader.vue";
 import ShopFooter from "@/components/ShopFooter.vue";
-import allDevices from "@/vuex/allDevices";
+import { mapActions, mapGetters } from "vuex";
 
 export default {
   name: "IphoneCatalog",
@@ -32,11 +39,15 @@ export default {
     ShopHeader,
     ShopFooter,
   },
-  props: { allDevices },
+  props: {},
+  computed: {
+    ...mapGetters(["DEVICES"]),
+  },
   methods: {
-    // aaa() {
-    //   alert("aaaaa");
-    // },
+    ...mapActions(["GET_DEVICES_FROM_API"]),
+  },
+  mounted() {
+    this.GET_DEVICES_FROM_API();
   },
 };
 </script>

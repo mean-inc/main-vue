@@ -1,26 +1,29 @@
-import Vue from "vue";
-import Vuex from "vuex";
-import Axios from "axios";
+import axios from "axios";
+import { createStore } from "vuex";
 
-Vue.use(Vuex);
-
-let allDevices = new Vuex.Store({
+export default createStore({
   state: {
     devices: [],
-  },
-  mutations: {},
-  actions: {
-    GET_DEVICES_FROM_API({ commit }) {
-      return Axios("", {
-        commit,
-      });
-    },
   },
   getters: {
     DEVICES(state) {
       return state.devices;
     },
   },
+  mutations: {
+    SET_DEVICES_TO_STATE: (state, devices) => {
+      state.devices = devices;
+    },
+  },
+  actions: {
+    GET_DEVICES_FROM_API({ commit }) {
+      return axios("http://localhost:3000/Iphone", {
+        method: "GET",
+      }).then((devices) => {
+        commit("SET_DEVICES_TO_STATE", devices.data);
+        return devices;
+      });
+    },
+  },
+  modules: {},
 });
-
-export default allDevices;

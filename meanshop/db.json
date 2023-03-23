@@ -3,74 +3,83 @@
      {
         "name": "iPhone XR", 
         "memory": "64/128/256 GB",
-        "colors": "Black, White, Blue, Yellow, Coral, Red",
+        "colors": ["Black", "White", "Blue", "Yellow", "Coral", "Red"],
         "diagonal": "6.1 inches",
         "camera": "12 MP",
-        "cost": "Unavailable"
+        "cost": "399$",
+        "article": "0001"
    },
    {  
       "name": "iPhone 11",
         "memory": "64/128/256 GB",
-        "colors": "Black, White, Green, Yellow, Purple, Red",
+        "colors": ["Black", "White", "Green", "Yellow", "Purple", "Red"],
         "diagonal": "6.1 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide",
-        "cost": "Unavailable"
+        "cost": "449$",
+        "article": "0002"
     },
    {
       "name": "iPhone 11 Pro",
         "memory": "64/256/512 GB",
-        "colors": "Midnight Green, Space Gray, Silver, Gold",
+        "colors": ["Midnight Green", "Space Gray", "Silver", "Gold"],
         "diagonal": "5.8 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
-        "cost": "Unavailable"
+        "cost": "479$",
+        "article": "0003"
     },
     {
       "name": "iPhone 11 Pro Max",
         "memory": "64/256/512 GB",
-        "colors": "Midnight Green, Space Gray, Silver, Gold",
+        "colors": ["Midnight Green", "Space Gray", "Silver", "Gold"],
         "diagonal": "6.5 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
-        "cost": "Unavailable"
+        "cost": "519$",
+        "article": "0004"
     },
     {
       "name": "iPhone SE (2nd generation)",
         "memory": "64/128/256 GB",
-        "colors": "Black, White, Red",
+        "colors": ["Black", "White", "Red"],
         "diagonal": "4.7 inches",
         "camera": "12 MP",
-        "cost": "Unavailable"
+        "cost": "319$",
+        "article": "0005"
     },
     {
       "name": "iPhone 12",
         "memory": "64/128/256 GB",
-        "colors": "Black, White, Green, Blue, Product Red",
+        "colors": ["Black", "White", "Green", "Blue", "Product Red"],
         "diagonal": "6.1 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide",
-        "cost": "Unavailable"
+        "cost": "529$",
+        "article": "0006"
     },
     {
       "name": "iPhone 12 mini",
         "memory": "64/128/256 GB",
-        "colors": "Black, White, Green, Blue, Product Red",
+        "colors": ["Black", "White", "Green", "Blue", "Product Red"],
         "diagonal": "5.4 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide",
-        "cost": "Unavailable"
+        "cost": "659$",
+        "article": "0007"
     },
     {
       "name": "iPhone 12 Pro",
         "memory": "128/256/512 GB",
-        "colors": "Graphite, Silver, Gold, Pacific Blue",
+        "colors": ["Graphite", "Silver", "Gold", "Pacific Blue"],
         "diagonal": "6.1 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
-        "cost": "Unavailable"
+        "cost": "679$",
+        "article": "0008"
     },
     {
       "name": "iPhone 12 Pro Max",
         "memory": "128/256/512 GB",
-        "colors": "Graphite, Silver, Gold, Pacific Blue",
+        "colors": ["Graphite", "Silver", "Gold", "Pacific Blue"],
         "diagonal": "6.7 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
-        "cost": "Unavailable"
+        "cost": "799$",
+        "article": "0009"
     }
    ]
 }
