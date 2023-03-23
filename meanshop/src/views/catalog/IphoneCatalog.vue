@@ -24,6 +24,7 @@
 <script>
 import ShopHeader from "@/components/ShopHeader.vue";
 import ShopFooter from "@/components/ShopFooter.vue";
+import allDevices from "@/vuex/allDevices";
 
 export default {
   name: "IphoneCatalog",
@@ -31,6 +32,7 @@ export default {
     ShopHeader,
     ShopFooter,
   },
+  props: { allDevices },
   methods: {
     // aaa() {
     //   alert("aaaaa");
