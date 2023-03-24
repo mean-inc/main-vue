@@ -17,10 +17,21 @@
           </div>
         </div>
         <div class="catalog__devices">
-          <div v-for="item in DEVICES" :key="item.article" class="device">
-            <h3>{{ item.name }}</h3>
-            <p>{{ item.cost }}</p>
-            <p>Доступные цвета:</p>
+          <div class="catalog__devices_grid">
+            <div v-for="item in DEVICES" :key="item.article" class="device">
+              <img
+                src="@/assets/img/icon_star.svg"
+                alt="icon_star"
+                class="item_favotites"
+              />
+              <img :src="item.img" alt="item_img" />
+              <!-- <img src="@/assets/img/img_example.jpg" alt="" /> -->
+              <div class="item__name_and_price">
+                <h3>{{ item.name }}</h3>
+                <a>{{ item.cost }}</a>
+              </div>
+              <p>Доступные цвета:</p>
+            </div>
           </div>
         </div>
       </div>

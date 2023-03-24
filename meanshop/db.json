@@ -7,7 +7,8 @@
         "diagonal": "6.1 inches",
         "camera": "12 MP",
         "cost": "399$",
-        "article": "0001"
+        "article": "0001",
+        "img": "public/images/img_example.jpg"
    },
    {  
       "name": "iPhone 11",
@@ -16,7 +17,8 @@
         "diagonal": "6.1 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide",
         "cost": "449$",
-        "article": "0002"
+        "article": "0002",
+        "img": "@/assets/img/img_example.jpg"
     },
    {
       "name": "iPhone 11 Pro",
@@ -25,7 +27,8 @@
         "diagonal": "5.8 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
         "cost": "479$",
-        "article": "0003"
+        "article": "0003",
+        "img": "@/assets/img/img_example.jpg"
     },
     {
       "name": "iPhone 11 Pro Max",
@@ -37,7 +40,7 @@
         "article": "0004"
     },
     {
-      "name": "iPhone SE (2nd generation)",
+      "name": "iPhone SE 2020",
         "memory": "64/128/256 GB",
         "colors": ["Black", "White", "Red"],
         "diagonal": "4.7 inches",
@@ -81,5 +84,57 @@
         "cost": "799$",
         "article": "0009"
     }
-   ]
+   ],
+   "iPads": [
+      {
+        "name": "iPad (8th generation)",
+        "memory": "32GB/128GB",
+        "colors": ["Space Gray", "Silver", "Gold"],
+        "article": "0010",
+        "diagonal": "10.2 inches",
+        "camera": "8MP rear, 1.2MP front",
+        "minimal_cost": "329$",
+        "cost": "$329/$429"
+      },
+      {
+        "name": "iPad Air (4th generation)",
+        "memory": "64GB/256GB",
+        "colors": ["Space Gray", "Silver", "Rose Gold", "Green", "Sky Blue"],
+        "article": "0020",
+        "diagonal": "10.9 inches",
+        "camera": "12MP rear, 7MP front",
+        "minimal_cost": "599$",
+        "cost": "$599/$749"
+      },
+      {
+        "name": "iPad Mini (5th generation)",
+        "memory": "64GB/256GB",
+        "colors": ["Space Gray", "Silver", "Gold"],
+        "article": "0030",
+        "diagonal": "7.9 inches",
+        "camera": "8MP rear, 7MP front",
+        "minimal_cost": "399$",
+        "cost": "$399/$549"
+      },
+      {
+        "name": "iPad Pro (11-inch)",
+        "memory": "128GB/256GB/512GB/1TB/2TB",
+        "colors": ["Silver", "Space Gray"],
+        "article": "0050",
+        "diagonal": "11 inches",
+        "camera": "12MP wide, 10MP ultra-wide, 7MP front",
+        "minimal_cost": "799$",
+        "cost": "$799/$899/$1,099/$1,499/$1,899"
+      },
+      {
+        "name": "iPad Pro (12.9-inch)",
+        "memory": "128GB/256GB/512GB/1TB/2TB",
+        "colors": ["Silver", "Space Gray"],
+        "article": "0040",
+        "diagonal": "12.9 inches",
+        "camera": "12MP wide, 10MP ultra-wide, 7MP front",
+        "minimal_cost": "999$",
+        "cost": "$999/$1,099/$1,299/$1,699/$2,099"
+      }
+    ]
 }
