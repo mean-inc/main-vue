@@ -24,7 +24,7 @@
                 alt="icon_star"
                 class="item_favotites"
               />
-              <img :src="item.img" alt="item_img" />
+              <img :src="item.img" alt="item_img" class="catalog_item_img" />
               <!-- <img src="@/assets/img/img_example.jpg" alt="" /> -->
               <div class="item__name_and_price">
                 <h3>{{ item.name }}</h3>

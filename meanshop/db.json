@@ -8,7 +8,7 @@
         "camera": "12 MP",
         "cost": "399$",
         "article": "0001",
-        "img": "public/images/img_example.jpg"
+        "img": "https://technolider24.ru/upload/iblock/386/driir5iie02ox1zamoqeyu6sbbmo1o05.jpg"
    },
    {  
       "name": "iPhone 11",
@@ -18,7 +18,7 @@
         "camera": "12 MP Ultra-wide + 12 MP Wide",
         "cost": "449$",
         "article": "0002",
-        "img": "@/assets/img/img_example.jpg"
+        "img": "https://www.hdretail.ru/upload/iblock/554/554788e75388f602468c287a2b1a17d7.jpg"
     },
    {
       "name": "iPhone 11 Pro",
@@ -28,7 +28,7 @@
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
         "cost": "479$",
         "article": "0003",
-        "img": "@/assets/img/img_example.jpg"
+        "img": "https://apple-com.ru/image/cache/catalog/product/iPhone%2011/iphone_11_pro_mg_2-800x700h.jpg.webp"
     },
     {
       "name": "iPhone 11 Pro Max",
@@ -37,7 +37,8 @@
         "diagonal": "6.5 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
         "cost": "519$",
-        "article": "0004"
+        "article": "0004",
+        "img": "https://i-stock.store/image/cache/catalog/iphone11pro/11473.970-500x500.jpg"
     },
     {
       "name": "iPhone SE 2020",
@@ -46,7 +47,8 @@
         "diagonal": "4.7 inches",
         "camera": "12 MP",
         "cost": "319$",
-        "article": "0005"
+        "article": "0005",
+        "img": "data:image/jpeg;base64,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"
     },
     {
       "name": "iPhone 12",
@@ -55,7 +57,8 @@
         "diagonal": "6.1 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide",
         "cost": "529$",
-        "article": "0006"
+        "article": "0006",
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/067/450_450_1/s7z6c69965fk7w5j8scv1ny1byqkjjy5.jpg"
     },
     {
       "name": "iPhone 12 mini",
@@ -64,7 +67,8 @@
         "diagonal": "5.4 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide",
         "cost": "659$",
-        "article": "0007"
+        "article": "0007",
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/340/450_450_1/hg2g05rcuz5pvazi0lg7ng0rm3fd9bom.jpg"
     },
     {
       "name": "iPhone 12 Pro",
@@ -73,7 +77,8 @@
         "diagonal": "6.1 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
         "cost": "679$",
-        "article": "0008"
+        "article": "0008",
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/34a/450_450_1/veds8ongrx6iofcwcf49ry0ile8w6y01.jpg"
     },
     {
       "name": "iPhone 12 Pro Max",
@@ -82,8 +87,126 @@
         "diagonal": "6.7 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
         "cost": "799$",
-        "article": "0009"
-    }
+        "article": "0009",
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/ada/450_450_1/on7x1uunzu0a5e8fr4hr02caz6l9aqml.jpg"
+    },
+    {
+        "name": "iPhone 13",
+        "memory": "64GB, 128GB, 256GB, 512GB",
+        "colors": ["Product Red", "Starlight", "Midnight", "Blue"],
+        "diagonal": "6.1",
+        "camera": "12MP wide + 12MP ultrawide",
+        "cost": "799$",
+        "costs": {
+          "64GB": 799,
+          "128GB": 849,
+          "256GB": 999,
+          "512GB": 1199
+        },
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/c91/450_450_1/fk79si16ns5l6ratvc7u0y0hls40th3r.jpg"
+      },
+      {
+        "name": "iPhone 13 Pro",
+        "memory": "128GB, 256GB, 512GB, 1TB",
+        "colors": ["Graphite", "Gold", "Silver", "Sierra Blue"],
+        "diagonal": "6.1",
+        "camera": "12MP wide + 12MP ultrawide + 12MP telephoto",
+        "cost": "999$",
+        "costs": {
+          "128GB": 999,
+          "256GB": 1099,
+          "512GB": 1299,
+          "1TB": 1499
+        },
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/c5c/450_450_1/ecme2elo9a00joibizb1lh0f7ww9oxjn.jpg"
+      },
+      {
+        "name": "iPhone 13 Pro Max",
+        "memory": "128GB, 256GB, 512GB, 1TB",
+        "colors": ["Graphite", "Gold", "Silver", "Sierra Blue"],
+        "diagonal": "6.7",
+        "camera": "12MP wide + 12MP ultrawide + 12MP telephoto",
+        "cost": "1099$",
+        "costs": {
+          "128GB": 1099,
+          "256GB": 1199,
+          "512GB": 1399,
+          "1TB": 1599
+        },
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/5c7/450_450_1/bvlbal0b6l1qgeo1151uvnyd8l0qgrl9.jpg"
+      },
+      {
+        "name": "iPhone 13 Mini",
+        "memory": "64GB, 128GB, 256GB",
+        "colors": ["Product Red", "Starlight", "Midnight", "Blue"],
+        "diagonal": "5.4",
+        "camera": "12MP wide + 12MP ultrawide",
+        "cost": "699$",
+        "costs": {
+          "64GB": 699,
+          "128GB": 749,
+          "256GB": 899
+        },
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/460/450_450_1/j3tvv3za26gpf70h1xryol4p7n862a2x.jpg"
+      },
+      {
+        "name": "iPhone 14",
+        "memory": "64GB, 128GB, 256GB",
+        "colors": ["Product Red", "Starlight", "Midnight", "Blue"],
+        "diagonal": "6.1",
+        "camera": "16MP + 12MP",
+        "cost": "899$",
+        "costs": {
+          "64GB": 899,
+          "128GB": 949,
+          "256GB": 1099
+        },
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/2ee/450_450_1/y7616s3wfbqcu4j9auyh2m3m3ddf7gko.jpg"
+      },
+      {
+        "name": "iPhone 14 Pro",
+        "memory": "128GB, 256GB, 512GB, 1TB",
+        "colors": ["Graphite", "Gold", "Silver", "Pacific Blue"],
+        "diagonal": "6.1",
+        "camera": "16MP + 12MP ultrawide + 12MP telephoto",
+        "cost": "1199$",
+        "costs": {
+          "128GB": 1199,
+          "256GB": 1299,
+          "512GB": 1499,
+          "1TB": 1699
+        },
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/9f0/450_450_1/igv5l7oxauaadsvmh1c36gk824a0egb4.jpg"
+      }, 
+      {
+        "name": "iPhone 14 Plus",
+        "memory": "128GB, 256GB, 512GB",
+        "colors": ["Product Red", "Starlight", "Midnight", "Blue"],
+        "diagonal": "6.7",
+        "camera": "16MP + 12MP + 12MP telephoto",
+        "cost": "1199$",
+        "costs": {
+          "128GB": 1199,
+          "256GB": 1299,
+          "512GB": 1499
+        },
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/247/450_450_1/eniwon6hb8yz4dy6i27rdgkhwvvelj1n.jpg"
+      },
+      {
+        "name": "iPhone 14 Pro Max",
+        "memory": "128GB, 256GB, 512GB, 1TB",
+        "colors": ["Graphite", "Gold", "Silver", "Pacific Blue"],
+        "diagonal": "6.7",
+        "camera": "16MP + 12MP ultrawide + 12MP telephoto",
+        "cost": "1299$",
+        "costs": {
+          "128GB": 1299,
+          "256GB": 1399,
+          "512GB": 1599,
+          "1TB": 1799
+        },
+        "img": "https://technolider24.ru/upload/resize_cache/iblock/9a0/450_450_1/4ee433y73x9kp8hgnz8vmoh7pts97amf.jpg"
+      }
    ],
    "iPads": [
       {
