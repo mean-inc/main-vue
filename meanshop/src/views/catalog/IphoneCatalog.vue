@@ -16,6 +16,7 @@
             <img src="@/assets/img/filter_select.svg" alt="svg select" />
           </div>
         </div>
+        <div class="catalog__line"></div>
         <div class="catalog__devices">
           <div class="catalog__devices_grid">
             <div v-for="item in DEVICES" :key="item.article" class="device">
