@@ -18,8 +18,17 @@
         </div>
         <div class="catalog__line"></div>
         <div class="catalog__devices">
+          <shop-modal v-if="shopModalVisible" @closeModal="closeModal">
+            <p>Iphone</p>
+            <p>{{ phone.name }}</p>
+          </shop-modal>
           <div class="catalog__devices_grid">
-            <div v-for="phone in iphones" :key="phone.article" class="device">
+            <div
+              v-for="phone in iphones"
+              :key="phone.article"
+              @click="openModal()"
+              class="device"
+            >
               <img
                 src="@/assets/img/icon_star.svg"
                 alt="icon_star"
@@ -51,6 +60,7 @@
 <script>
 import ShopHeader from "@/components/ShopHeader.vue";
 import ShopFooter from "@/components/ShopFooter.vue";
+import ShopModal from "@/components/modals/ShopModal.vue";
 import IphoneData from "C:/Users/andre/OneDrive/Рабочий стол/appleshop/main-vue/meanshop/db.json";
 import { mapActions, mapGetters } from "vuex";
 
@@ -59,17 +69,32 @@ export default {
   components: {
     ShopHeader,
     ShopFooter,
+    ShopModal,
+  },
+  props: {
+    phone: {
+      type: Object,
+      default() {
+        return {};
+      },
+    },
   },
   data() {
     return {
       iphones: IphoneData.Iphone,
+      shopModalVisible: false,
     };
   },
-  props: {},
   computed: {
     ...mapGetters(["DEVICES"]),
   },
   methods: {
+    openModal() {
+      this.shopModalVisible = true;
+    },
+    closeModal() {
+      this.shopModalVisible = false;
+    },
     ...mapActions(["GET_DEVICES_FROM_API"]),
   },
   mounted() {
