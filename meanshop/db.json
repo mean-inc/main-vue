@@ -23,7 +23,7 @@
    {
       "name": "iPhone 11 Pro",
         "memory": "64/256/512 GB",
-        "colors": ["Midnight Green", "Space Gray", "Silver", "Gold"],
+        "colors": ["Midnight_Green", "Space_Gray", "Silver", "Gold"],
         "diagonal": "5.8 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
         "cost": "479$",
@@ -33,7 +33,7 @@
     {
       "name": "iPhone 11 Pro Max",
         "memory": "64/256/512 GB",
-        "colors": ["Midnight Green", "Space Gray", "Silver", "Gold"],
+        "colors": ["Midnight_Green", "Space_Gray", "Silver", "Gold"],
         "diagonal": "6.5 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
         "cost": "519$",
@@ -53,7 +53,7 @@
     {
       "name": "iPhone 12",
         "memory": "64/128/256 GB",
-        "colors": ["Black", "White", "Green", "Blue", "Product Red"],
+        "colors": ["Black", "White", "Green", "Blue", "Red"],
         "diagonal": "6.1 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide",
         "cost": "529$",
@@ -63,7 +63,7 @@
     {
       "name": "iPhone 12 mini",
         "memory": "64/128/256 GB",
-        "colors": ["Black", "White", "Green", "Blue", "Product Red"],
+        "colors": ["Black", "White", "Green", "Blue", "Red"],
         "diagonal": "5.4 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide",
         "cost": "659$",
@@ -73,7 +73,7 @@
     {
       "name": "iPhone 12 Pro",
         "memory": "128/256/512 GB",
-        "colors": ["Graphite", "Silver", "Gold", "Pacific Blue"],
+        "colors": ["Graphite", "Silver", "Gold", "Pacific_Blue"],
         "diagonal": "6.1 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
         "cost": "679$",
@@ -83,7 +83,7 @@
     {
       "name": "iPhone 12 Pro Max",
         "memory": "128/256/512 GB",
-        "colors": ["Graphite", "Silver", "Gold", "Pacific Blue"],
+        "colors": ["Graphite", "Silver", "Gold", "Pacific_Blue"],
         "diagonal": "6.7 inches",
         "camera": "12 MP Ultra-wide + 12 MP Wide + 12 MP Telephoto",
         "cost": "799$",
@@ -93,10 +93,11 @@
     {
         "name": "iPhone 13",
         "memory": "64GB, 128GB, 256GB, 512GB",
-        "colors": ["Product Red", "Starlight", "Midnight", "Blue"],
+        "colors": ["Red", "Starlight", "Midnight", "Blue"],
         "diagonal": "6.1",
         "camera": "12MP wide + 12MP ultrawide",
         "cost": "799$",
+        "article": "00010",
         "costs": {
           "64GB": 799,
           "128GB": 849,
@@ -108,10 +109,11 @@
       {
         "name": "iPhone 13 Pro",
         "memory": "128GB, 256GB, 512GB, 1TB",
-        "colors": ["Graphite", "Gold", "Silver", "Sierra Blue"],
+        "colors": ["Graphite", "Gold", "Silver", "Sierra_Blue"],
         "diagonal": "6.1",
         "camera": "12MP wide + 12MP ultrawide + 12MP telephoto",
         "cost": "999$",
+        "article": "00011",
         "costs": {
           "128GB": 999,
           "256GB": 1099,
@@ -123,10 +125,11 @@
       {
         "name": "iPhone 13 Pro Max",
         "memory": "128GB, 256GB, 512GB, 1TB",
-        "colors": ["Graphite", "Gold", "Silver", "Sierra Blue"],
+        "colors": ["Graphite", "Gold", "Silver", "Sierra_Blue"],
         "diagonal": "6.7",
         "camera": "12MP wide + 12MP ultrawide + 12MP telephoto",
         "cost": "1099$",
+        "article": "00012",
         "costs": {
           "128GB": 1099,
           "256GB": 1199,
@@ -138,10 +141,11 @@
       {
         "name": "iPhone 13 Mini",
         "memory": "64GB, 128GB, 256GB",
-        "colors": ["Product Red", "Starlight", "Midnight", "Blue"],
+        "colors": ["Red", "Starlight", "Midnight", "Blue"],
         "diagonal": "5.4",
         "camera": "12MP wide + 12MP ultrawide",
         "cost": "699$",
+        "article": "00013",
         "costs": {
           "64GB": 699,
           "128GB": 749,
@@ -152,10 +156,11 @@
       {
         "name": "iPhone 14",
         "memory": "64GB, 128GB, 256GB",
-        "colors": ["Product Red", "Starlight", "Midnight", "Blue"],
+        "colors": ["Red", "Starlight", "Midnight", "Blue"],
         "diagonal": "6.1",
         "camera": "16MP + 12MP",
         "cost": "899$",
+        "article": "00014",
         "costs": {
           "64GB": 899,
           "128GB": 949,
@@ -166,10 +171,11 @@
       {
         "name": "iPhone 14 Pro",
         "memory": "128GB, 256GB, 512GB, 1TB",
-        "colors": ["Graphite", "Gold", "Silver", "Pacific Blue"],
+        "colors": ["Graphite", "Gold", "Silver", "Pacific_Blue"],
         "diagonal": "6.1",
         "camera": "16MP + 12MP ultrawide + 12MP telephoto",
         "cost": "1199$",
+        "article": "00015",
         "costs": {
           "128GB": 1199,
           "256GB": 1299,
@@ -181,10 +187,11 @@
       {
         "name": "iPhone 14 Plus",
         "memory": "128GB, 256GB, 512GB",
-        "colors": ["Product Red", "Starlight", "Midnight", "Blue"],
+        "colors": ["Red", "Starlight", "Midnight", "Blue"],
         "diagonal": "6.7",
         "camera": "16MP + 12MP + 12MP telephoto",
         "cost": "1199$",
+        "article": "00016",
         "costs": {
           "128GB": 1199,
           "256GB": 1299,
@@ -195,10 +202,11 @@
       {
         "name": "iPhone 14 Pro Max",
         "memory": "128GB, 256GB, 512GB, 1TB",
-        "colors": ["Graphite", "Gold", "Silver", "Pacific Blue"],
+        "colors": ["Graphite", "Gold", "Silver", "Pacific_Blue"],
         "diagonal": "6.7",
         "camera": "16MP + 12MP ultrawide + 12MP telephoto",
         "cost": "1299$",
+        "article": "00017",
         "costs": {
           "128GB": 1299,
           "256GB": 1399,
@@ -212,7 +220,7 @@
       {
         "name": "iPad (8th generation)",
         "memory": "32GB/128GB",
-        "colors": ["Space Gray", "Silver", "Gold"],
+        "colors": ["Space_Gray", "Silver", "Gold"],
         "article": "0010",
         "diagonal": "10.2 inches",
         "camera": "8MP rear, 1.2MP front",
@@ -222,7 +230,7 @@
       {
         "name": "iPad Air (4th generation)",
         "memory": "64GB/256GB",
-        "colors": ["Space Gray", "Silver", "Rose Gold", "Green", "Sky Blue"],
+        "colors": ["Space_Gray", "Silver", "Rose Gold", "Green", "Sky_Blue"],
         "article": "0020",
         "diagonal": "10.9 inches",
         "camera": "12MP rear, 7MP front",
@@ -232,7 +240,7 @@
       {
         "name": "iPad Mini (5th generation)",
         "memory": "64GB/256GB",
-        "colors": ["Space Gray", "Silver", "Gold"],
+        "colors": ["Space_Gray", "Silver", "Gold"],
         "article": "0030",
         "diagonal": "7.9 inches",
         "camera": "8MP rear, 7MP front",
@@ -242,7 +250,7 @@
       {
         "name": "iPad Pro (11-inch)",
         "memory": "128GB/256GB/512GB/1TB/2TB",
-        "colors": ["Silver", "Space Gray"],
+        "colors": ["Silver", "Space_Gray"],
         "article": "0050",
         "diagonal": "11 inches",
         "camera": "12MP wide, 10MP ultra-wide, 7MP front",
@@ -252,7 +260,7 @@
       {
         "name": "iPad Pro (12.9-inch)",
         "memory": "128GB/256GB/512GB/1TB/2TB",
-        "colors": ["Silver", "Space Gray"],
+        "colors": ["Silver", "Space_Gray"],
         "article": "0040",
         "diagonal": "12.9 inches",
         "camera": "12MP wide, 10MP ultra-wide, 7MP front",

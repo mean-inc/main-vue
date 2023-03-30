@@ -108,3 +108,84 @@
 .catalog_item_img{
    height: 70%;
 }
+
+
+.item_clr{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.item_clr p{
+   font-weight: 400;
+   font-size: 1.15rem;
+}
+.item__colors{
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   border: 1px solid black;
+   margin: 0px 2.5px;
+}
+
+
+
+
+// COLORSSSSSS !!!!
+
+.Black{
+   background-color: black;
+}
+.White{
+   background-color: white;
+}
+.Blue{
+   background-color: blue;
+}
+.Yellow{
+   background-color: yellow;
+}
+.Coral{
+   background-color: coral;
+}
+.Red{
+   background-color: red;
+}
+.Purple{
+   background-color: purple;
+}
+.Midnight_Green{
+   background-color: #004953;
+}
+.Space_Gray{
+   background-color: #4f5b66;
+}
+.Silver{
+   background-color: #c0c0c0;
+}
+.Gold{
+   background-color: #FFD700;
+}
+.Green{
+   background-color: green;
+}
+.Graphite{
+   background-color: #383428;
+}
+.Pacific_Blue{
+   background-color: #1ca9c9;
+}
+.Starlight{
+   background-color: #b4cfd9;
+}
+.Midnight{
+   background-color: #2B333D;
+}
+.Sierra_Blue{
+   background-color: #69abce;
+}
+.Rose_Gold{
+   background-color: #B76E79;
+}
+.Sky_Blue{
+   background-color: #87CEEB;
+}

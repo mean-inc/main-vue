@@ -19,19 +19,27 @@
         <div class="catalog__line"></div>
         <div class="catalog__devices">
           <div class="catalog__devices_grid">
-            <div v-for="item in DEVICES" :key="item.article" class="device">
+            <div v-for="phone in iphones" :key="phone.article" class="device">
               <img
                 src="@/assets/img/icon_star.svg"
                 alt="icon_star"
                 class="item_favotites"
               />
-              <img :src="item.img" alt="item_img" class="catalog_item_img" />
+              <img :src="phone.img" alt="item_img" class="catalog_item_img" />
               <!-- <img src="@/assets/img/img_example.jpg" alt="" /> -->
               <div class="item__name_and_price">
-                <h3>{{ item.name }}</h3>
-                <a>{{ item.cost }}</a>
+                <h3>{{ phone.name }}</h3>
+                <a>{{ phone.cost }}</a>
               </div>
-              <p>Доступные цвета:</p>
+              <div class="item_clr">
+                <p>Доступные цвета:</p>
+                <div
+                  class="item__colors"
+                  :class="color"
+                  v-for="color in phone.colors"
+                  :key="color"
+                ></div>
+              </div>
             </div>
           </div>
         </div>
@@ -43,6 +51,7 @@
 <script>
 import ShopHeader from "@/components/ShopHeader.vue";
 import ShopFooter from "@/components/ShopFooter.vue";
+import IphoneData from "C:/Users/andre/OneDrive/Рабочий стол/appleshop/main-vue/meanshop/db.json";
 import { mapActions, mapGetters } from "vuex";
 
 export default {
@@ -50,6 +59,11 @@ export default {
   components: {
     ShopHeader,
     ShopFooter,
+  },
+  data() {
+    return {
+      iphones: IphoneData.Iphone,
+    };
   },
   props: {},
   computed: {
