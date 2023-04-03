@@ -3,7 +3,9 @@
     <div class="modalAll">
       <div class="modal_header">
         <h5>Iphone</h5>
-        <i @click="closeModal" class="material-icons">close</i>
+        <i @click="closeModal" style="cursor: pointer" class="material-icons"
+          >close</i
+        >
       </div>
       <div class="modal_body">
         <slot></slot>
