@@ -118,7 +118,7 @@
 <script>
 export default {
   name: "ShopHeader",
-  props: {},
+  props: ["selectedPhone"],
   data() {
     return {
       // userCity: "",

@@ -1,5 +1,5 @@
 <template>
-  <shop-header></shop-header>
+  <shop-header :selectedPhone="selectedPhone"></shop-header>
   <main class="main">
     <div class="main__container _container _center">
       <div class="page__title">
@@ -16,11 +16,16 @@
             <img src="@/assets/img/filter_select.svg" alt="svg select" />
           </div>
         </div>
+        <div class="filter__filter_filters"></div>
         <div class="catalog__line"></div>
         <div class="catalog__devices">
-          <shop-modal v-if="shopModalVisible" @closeModal="closeModal">
+          <shop-modal
+            :selectedPhone="selectedPhone"
+            v-if="shopModalVisible"
+            @closeModal="closeModal"
+          >
             <p>Iphone</p>
-            <p>{{ phone.name }}</p>
+            <p>{{ selectedPhone }}</p>
           </shop-modal>
           <div class="catalog__devices_grid">
             <div
@@ -83,22 +88,31 @@ export default {
     return {
       iphones: IphoneData.Iphone,
       shopModalVisible: false,
+      selectedPhone: null,
     };
   },
   computed: {
     ...mapGetters(["DEVICES"]),
   },
+  mounted() {
+    this.fetchImages();
+    this.GET_DEVICES_FROM_API();
+  },
   methods: {
-    openModal() {
+    openModal(phoneName) {
+      this.selectedPhone = phoneName;
       this.shopModalVisible = true;
     },
     closeModal() {
       this.shopModalVisible = false;
+      this.selectedPhone = null;
     },
     ...mapActions(["GET_DEVICES_FROM_API"]),
-  },
-  mounted() {
-    this.GET_DEVICES_FROM_API();
+    async fetchImages() {
+      const response = await fetch("db.json"); // заменить на путь к JSON-файлу
+      const data = await response.json();
+      this.images = data;
+    },
   },
 };
 </script>

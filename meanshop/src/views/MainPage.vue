@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <ShopHeader />
+    <shop-header :selectedPhone="selectedPhone">
+      <p>{{ selectedPhone }}</p>
+    </shop-header>
     <main class="main">
       <!-- <div class="modal _closed">
         <div class="modal__city">

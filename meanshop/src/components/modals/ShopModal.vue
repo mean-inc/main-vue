@@ -8,7 +8,9 @@
         >
       </div>
       <div class="modal_body">
-        <slot></slot>
+        <!-- <slot></slot> -->
+        <p>Iphone</p>
+        <p>{{ selectedPhone }}</p>
       </div>
       <div class="modal_footer">
         <button>В корзину</button>
@@ -20,6 +22,7 @@
 <script>
 export default {
   name: "ShopModal",
+  props: ["selectedPhone"],
   methods: {
     closeModal() {
       this.$emit("closeModal");
