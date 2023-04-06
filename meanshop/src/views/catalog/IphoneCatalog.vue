@@ -16,7 +16,24 @@
             <img src="@/assets/img/filter_select.svg" alt="svg select" />
           </div>
         </div>
-        <div class="filter__filter_filters"></div>
+        <div class="filter__filter_filters">
+          <!-- <div class="range_slider">
+            <input
+              type="range"
+              min="299"
+              max="4999"
+              name="price_range"
+              id="price_range"
+            />
+            <input
+              type="range"
+              min="299"
+              max="4999"
+              name="price_range"
+              id="price_range"
+            />
+          </div> -->
+        </div>
         <div class="catalog__line"></div>
         <div class="catalog__devices">
           <shop-modal
@@ -66,6 +83,7 @@
 import ShopHeader from "@/components/ShopHeader.vue";
 import ShopFooter from "@/components/ShopFooter.vue";
 import ShopModal from "@/components/modals/ShopModal.vue";
+import "@/index";
 import IphoneData from "C:/Users/andre/OneDrive/Рабочий стол/appleshop/main-vue/meanshop/db.json";
 import { mapActions, mapGetters } from "vuex";
 
