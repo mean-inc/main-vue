@@ -36,13 +36,8 @@
         </div>
         <div class="catalog__line"></div>
         <div class="catalog__devices">
-          <shop-modal
-            :selectedPhone="selectedPhone"
-            v-if="shopModalVisible"
-            @closeModal="closeModal"
-          >
+          <shop-modal v-if="shopModalVisible" @closeModal="closeModal">
             <p>Iphone</p>
-            <p>{{ selectedPhone }}</p>
           </shop-modal>
           <div class="catalog__devices_grid">
             <div
@@ -51,6 +46,7 @@
               @click="openModal()"
               class="device"
             >
+              <a :href="phone.link"></a>
               <img
                 src="@/assets/img/icon_star.svg"
                 alt="icon_star"
